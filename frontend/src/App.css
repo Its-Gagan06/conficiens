@@ -1,0 +1,60 @@
+.placevault{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.sign-up-opts{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    color: white;
+    background-color: black;
+     border-radius: 5px;
+     border: none;
+     height: 30px;
+     width: 80px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px rgb(26, 25, 25) solid;
+    
+}
+.desc-photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+}
+.description {
+    width: 50%;
+}
+.bold-head{
+ font-size: clamp(40px, 4vw, 64px);
+  line-height: 1.05;
+  font-weight: 700;
+}
+.heading{
+    font-size: clamp(20px , 2vw , 30px);
+    color: gray;
+}
+.results{
+    color: blue;
+}
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.image img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+}
