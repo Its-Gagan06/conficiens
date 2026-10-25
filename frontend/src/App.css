@@ -18,6 +18,9 @@
      height: 30px;
      width: 80px;
 }
+.btn:hover{
+    cursor: pointer;
+}
 .Header{
     display: flex;
     justify-content: space-between;
